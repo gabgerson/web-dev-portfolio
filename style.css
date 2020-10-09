@@ -30,7 +30,7 @@ img {
 
 .full-width {
     width: 100%;
-    height: 600px; 
+/*     height: 600px;  */
     background: #6169ff;
 }
 
@@ -40,7 +40,7 @@ img {
     font-size: 1em;
 /*     vertical-align: middle; */
 /*     padding: 0 auto; */
-padding-top: 10%
+    padding-bottom: 5%
  
 
 }
@@ -51,7 +51,62 @@ padding-top: 10%
 } */
 
 #projects {
-    /* display: inline-block;
-    margin-left: 90px; */
-    
+    padding-top: 10%;
+    padding-bottom: 10%
+}
+
+
+ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+}
+
+.card {
+    text-align: center;
+
+}
+.inner-div {
+   padding: 5%;
+}
+h5 {
+    color:  #6169ff;
+}
+
+#projects-row{
+    margin: 2%
+}
+
+.project-headlines {
+    color:  #6169ff;
+    font-size: 1.5em;
+    padding-top: 2%;
+}
+
+#experience {
+    padding-bottom:5%
+}
+
+.fa-icon {
+    color:#6169ff;
+    font-size: 2em;
+
+}
+
+#contact {
+    padding-top: 10%;
+    padding-bottom: 10%
+
+}
+#contact a {
+    color: #6169ff;
+}
+#bottom-social{
+    text-align:center;
+}
+
+a:hover{
+    color: #2d37e3;
+    text-decoration: none;
+
 }
